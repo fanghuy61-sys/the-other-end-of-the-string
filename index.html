@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="A hand-drawn puppet theatre adventure. Explore four mechanical stages, escape the String Collector and choose the last line of your own programme. Play in your browser.">
+  <meta name="theme-color" content="#21181a">
+  <title>The Other End of the String · Play online</title>
+  <link rel="icon" href="stage.icon.png">
+  <link rel="stylesheet" href="site.css">
+</head>
+<body>
+  <header class="mast"><div class="mast-inner"><a href="./" class="brand"><span class="spool" aria-hidden="true"></span> HFY <span class="light">/</span> Puppet Theatre</a><nav aria-label="Page navigation"><a href="#story">The story</a><a href="#controls">How to play</a></nav></div></header>
+  <main>
+    <section class="stage" aria-labelledby="game-title">
+      <img class="stage-scene" src="waiting-hall.webp" alt="" fetchpriority="high">
+      <img class="actor" src="walking-puppet.webp" alt="A wooden marionette suspended from a crossbar">
+      <div class="intro"><p class="kicker">A narrative puzzle game <i></i> v0.20</p>
+        <h1 id="game-title">The Other End<br><em>of the String</em></h1>
+        <p class="logline">The final bell is about to ring. Somewhere backstage, a puppet’s programme is missing its name.</p>
+        <a class="play" href="play.html"><span aria-hidden="true">▶</span> Play in browser</a>
+      </div>
+    </section>
+    <div class="paper">
+      <section id="story" class="story wrap"><div class="chapter-label">The story</div><div>
+        <h2>When the bells chose his steps,<br class="wide"> his colours faded.</h2>
+        <p>Once, the stage lights knew every shade of this puppet’s wood. Then the bells began telling him when to move and where to stand. By the night of the final performance, even his name was missing from the programme.</p>
+        <p>Guide him backstage before the String Collector finds him. A clock can hold a bridge still. A folded page can become a path. Each time he makes a choice of his own, another shade returns. What he writes on the last line is up to you.</p>
+      </div></section>
+      <section class="acts wrap" aria-labelledby="in-game"><div class="section-head"><h2 id="in-game">Inside the theatre</h2></div>
+        <div class="stills">
+          <figure><img src="paper-atrium.webp" width="960" height="600" loading="lazy" alt="A folded book opens a route above the floor of the Paper Atrium."><figcaption><h3>Walk the pages</h3><p>Turn the paper switch and choose a short bridge or a longer upper walkway.</p></figcaption></figure>
+          <figure><img src="collector.webp" width="960" height="600" loading="lazy" alt="The brass String Collector follows the puppet through a red corridor."><figcaption><h3>Outrun the Collector</h3><p>Carry the tool back, duck beneath falling curtains and jump the spools on the floor.</p></figcaption></figure>
+          <figure><img src="lighting.webp" width="960" height="600" loading="lazy" alt="Two theatre lights meet inside the centre ring at the lighting desk."><figcaption><h3>Set the last light</h3><p>Bring both lamps onto the centre mark, then raise the curtain yourself.</p></figcaption></figure>
+        </div>
+      </section>
+      <section id="controls" class="guide wrap"><div><p class="chapter-label">How to play</p><h2>Take the strings.</h2><p>Start a new journey for a short rehearsal. Use a keyboard and mouse, or turn your phone sideways and use the on-screen controls. Tap and drag items just as you would with a mouse.</p></div>
+        <dl><div><dt><kbd>A</kbd> <kbd>D</kbd></dt><dd>Walk left and right</dd></div><div><dt><kbd>W</kbd> <kbd>S</kbd></dt><dd>Climb up and down</dd></div><div><dt><kbd>F</kbd> <kbd>E</kbd></dt><dd>Inspect an object or work a mechanism</dd></div><div><dt><kbd>Shift</kbd> <kbd>Space</kbd></dt><dd>Sprint or jump during a chase</dd></div><div><dt><kbd>Esc</kbd> <kbd>H</kbd></dt><dd>Pause or show help</dd></div></dl>
+      </section>
+    </div>
+  </main>
+  <footer><strong>The Other End of the String</strong><span>HFY · Godot · English / Chinese</span><a href="credits.html">Credits</a><a href="play.html">Play in browser</a></footer>
+</body>
+</html>

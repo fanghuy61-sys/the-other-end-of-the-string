@@ -1,0 +1,9 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover"><meta name="theme-color" content="#191317"><title>Play · The Other End of the String</title><link rel="icon" href="stage.icon.png"><link rel="stylesheet" href="player.css"></head>
+<body>
+<header><a href="./">About the game</a><span>THE OTHER END OF THE STRING</span><button type="button" id="toggle" aria-expanded="false" aria-controls="touch">Show controls</button><button id="full" type="button">Fullscreen</button></header>
+<main><iframe id="game" src="stage.html" title="The Other End of the String, v0.20" allow="autoplay; fullscreen" allowfullscreen></iframe></main>
+<div id="touch" hidden><div class="pad" aria-label="Movement"><button data-key="W" aria-label="W climb up">W ↑</button><button data-key="A" aria-label="A walk left">A ←</button><button data-key="S" aria-label="S climb down or crouch">S ↓</button><button data-key="D" aria-label="D walk right">D →</button></div>
+<div class="actions"><button data-key="F">F · Inspect</button><button data-key="E">E · Use</button><button data-key="Space">Jump</button><button data-key="Shift">Sprint</button><button data-key="Tab">Map</button><button data-key="Esc">Pause</button></div></div>
+<p id="rotate">For a larger stage, turn your phone sideways.</p><script src="player.js"></script>
+</body></html>
